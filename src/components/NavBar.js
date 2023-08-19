@@ -20,7 +20,7 @@ function NavBar() {
         </div>
         <div
           className={`text-black md:static absolute bg-white md:min-h-fit min-h-[60vh] md:w-auto left-0 ${
-            toggle ? 'top-[9%]' : 'top-[-100%]'
+            toggle ? 'top-[5%]' : 'top-[-100%]'
           } w-full my-5 flex items-center px-5 transition-all duration-300`}
         >
           <ul className='flex md:flex-row flex-col items-center md:gap-[4vw] gap-8'>
@@ -42,6 +42,9 @@ function NavBar() {
           </ul>
         </div>
         <div className='flex items-center gap-6'>
+        <button className='bg-[#a6c1ee] text-white px-5 py-2 min-w-[100px] rounded-full hover:bg-[#87acec]'>
+            Log in
+          </button>
           <button className='bg-[#a6c1ee] text-white px-5 py-2 min-w-[100px] rounded-full hover:bg-[#87acec]'>
             Sign in
           </button>

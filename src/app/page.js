@@ -5,6 +5,7 @@ import React from 'react';
 import Services from '@/components/HomePage/Services';
 import Testimonials from '@/components/HomePage/Testimonials';
 import Contact from '@/components/HomePage/Contact';
+import Heroes from '@/components/HomePage/Heroes';
 
 const LandingPage = () => {
   
@@ -13,17 +14,10 @@ const LandingPage = () => {
 
   return (
     <div>
-      {/* Hero Section */}
-      {/* ... Hero section content ... */}
-
-      {/* Services Section */}
+      <Heroes/>
       <Services/>
-
-      {/* Testimonials Carousel */}
       <Testimonials/>
 
-      
-      {/* Additional Section */}
       <section className='bg-white py-10 text-center'>
         <h2 className='text-2xl text-black font-bold mb-10'>Why Choose Us</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
