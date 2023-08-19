@@ -3,7 +3,7 @@ import React from 'react';
 function Services() {
   const services = [
     {
-      image: 'https://image.similarpng.com/very-thumbnail/2020/05/Washing-machine-3d-render-transparent-PNG.png',
+      image: '/front-view-young-female-with-washing-machine-preparing-clothes-white-wall.jpg',
       title: 'Washing Machine Repair',
       description: 'Fast and reliable washing machine repair services.',
     },
@@ -36,7 +36,7 @@ function Services() {
             <img src={service.image} alt={service.title} className='mb-4 w-full bg-black'  />
             </div>
              
-              <h3 className='text-xl font-semibold mb-2'>{service.title}</h3>
+              <h3 className='text-black text-xl font-semibold mb-2'>{service.title}</h3>
               <p className='text-gray-600 mb-4'>{service.description}</p>
               <button className='text-blue-500 hover:underline'>Learn More</button>
             </div>
