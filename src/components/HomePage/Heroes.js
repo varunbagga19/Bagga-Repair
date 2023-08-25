@@ -18,7 +18,7 @@ function Heroes() {
               </div>
             </div>
             <div class="lg:w-1/2">
-              <img class="ml-auto" src="/undraw_barista_at0v.svg"></img>
+              <img class="ml-auto" src="/undraw_barista_at0v.svg" height={'10px'} width={'300px'}></img>
             </div>
           </div>
         </section>

@@ -79,7 +79,7 @@ function LoginR() {
         
         <p className='text-sm text-black mt-6'>
           Dont have an account?
-          <Link href={"/singup"}>
+          <Link href={"/signup"}>
           <span className='font-semibold underline cursor-pointer'>Sign up for free</span>
           </Link>
           
